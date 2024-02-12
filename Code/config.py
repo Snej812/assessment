@@ -1,0 +1,9 @@
+API_KEY = '071dfd2b-aaab-420d-a500-1db404cc4453'
+API_URL = 'https://content.guardianapis.com/search'
+FIELDNAMES = ['id', 'type', 'sectionId', 'sectionName', 'webPublicationDate', 'webTitle', 'webUrl', 'apiUrl', 'isHosted', 'pillarId', 'pillarName', 'wordcount']
+PAGE_SIZE = 200
+CSV_FILE = 'files/guardian_articles.csv'
+AGGREGATED_CSV_FILE = 'files/aggregated_articles.csv'
+STATE_FILE = 'state.txt' 
+CALLS_PER_SECOND = 1
+CALLS_PER_DAY = 500
